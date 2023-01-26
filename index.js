@@ -1,3 +1,6 @@
-let friends = [ 'João', 'jayderso','caio', 'Rodrigo']
-friends[3] = 'Diego'
-console.log(friends)
+function salesStatus(status, total) {
+
+    console.log('Transaction ' + status + '! Total foi: $' + total  )  
+}
+
+salesStatus('Approved', 30)
